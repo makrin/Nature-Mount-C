@@ -77,7 +77,7 @@ body {
 }
 
 .ynh-wrapper {
-	background-image: url("pictures/login-logo.jpg");
+	background-image: url("pictures/login-logo.png");
 	background-repeat: no-repeat;
 	background-position-x: 50px;
 	margin: 0;
@@ -92,7 +92,7 @@ body {
 	border-radius: 0 0 15px 15px;
 	margin-top: 256px;
 	max-width: none;
-	color : #c2a593;
+	color : #d790f5fc;
 	
 	/* Typo Rules */
 	font-family: 'NotoSansBold', serif;
@@ -104,16 +104,16 @@ body {
 }
 
 .messages.info {
-	background-color: #5d5446;
+	background-color: #8832adff;
 	padding: 0 0 8px 0;
 }
 
 .login {
-	background-color: #2c2b27;
+	background-color: #381547;
 	height: 256px;
 	border-radius: 15px 15px 0 0;
 	box-shadow:  8px 8px 8px rgb(16, 28, 22);
-	border-bottom: 8px solid #5d5446;
+	border-bottom: 8px solid #8832adff;
 }
 
 .login-form {
@@ -129,7 +129,7 @@ body {
 	padding: 0 0 0 60px;
 }
 .login-form .btn:hover {
-	background: url("pictures/picto.jpg") no-repeat 0 52px white;
+	background: url("pictures/picto.png") no-repeat 0 52px white;
 }
 
 .login-form .form-group {
@@ -156,12 +156,12 @@ body {
 	padding: 0 5%;
 	border: 0;
 	font-family: 'NotoSansBold', serif;
-	background-color: #5d5446;
-	color: #c2a593;
+	background-color: #8832adff;
+	color: #d790f5fc;
 	position: relative;
 }
 .login-form .form-text::placeholder {
-	color: #c2a593;
+	color: #d790f5fc;
 }
 
 .icon-user, .icon-lock {
@@ -169,22 +169,22 @@ body {
 	width: 52px;
 }
 .icon-user {
-	background-image: url("pictures/picto.jpg");
+	background-image: url("pictures/picto.png");
 }
 .icon-lock {
-	background-image: url("pictures/picto.jpg");
+	background-image: url("pictures/picto.png");
 	background-position: 0 -52px;
 }
 input[type="submit"] {
 	border: 0;
-	background-image: url("pictures/picto.jpg");
+	background-image: url("pictures/picto.png");
 	background-position: 0 -102px;
 	background-repeat: repeat-y;
-	background-color: #5d5446;
+	background-color: #8832adff;
 
 	/* Typo Setup */
 	font-family: 'NotoSansBold', serif;
-	color: #c2a593;
+	color: #d790f5fc;
 	text-align: left;
 }
 
@@ -227,7 +227,7 @@ body.logged, .logged .content {
 .logged .user-menu a {
 	margin: 0;
 	padding: 16px;
-	color: #c2a593;
+	color: #d790f5fc;
 }
 		/* ------------------------
 				Pannel
@@ -235,8 +235,8 @@ body.logged, .logged .content {
 .logged .user, .logged .footer {
 	width: 30%;
 	background-image: none;
-	background-color: #4f4641;
-	border-right: 0.6em solid #6f5b50;
+	background-color: #60237aff;
+	border-right: 0.6em solid #8832adff;
 	padding-top: 64px;
 }
 		/* ------------------------
@@ -249,8 +249,8 @@ body.logged, .logged .content {
 	line-height: 2.6em;
 	margin: 0;
 	padding: 16px 0 0;
-	background-color: #2c2b27;
-	color: #c2a593;
+	background-color: #60237aff;
+	color: #d790f5fc;
 	text-align: center;
 }
 .user-container::before{
@@ -270,7 +270,7 @@ body.logged, .logged .content {
 .user-container .user-username::after, .user-container-edit .user-username::after {
 	font-family: "Icon Awesome", serif;
 	content: "\f044";
-	color: #c2a593;
+	color: #d790f5fc;
 	font-size: 0.8em;
     width: 1em;
     height: 1em;
@@ -290,7 +290,7 @@ body.logged, .logged .content {
 }
 .user-container .user-mail {
 	float: right;
-	color: #c2a593;
+	color: #d790f5fc;
 	margin: 0;
 	padding: 0 10%;
 	text-align: right;
@@ -319,7 +319,7 @@ body.logged, .logged .content {
 	left: 0;
 	text-align: right;
 	background-position: right;
-	color: #c2a593;
+	color: #d790f5fc;
 	font-variant: small-caps;
 	font-family: 'NotoSansBold', serif;
 
@@ -331,10 +331,10 @@ body.logged, .logged .content {
 				Logout Icon
 		------------------------ */
 .icon-connexion {
-	color: #c2a593;
+	color: #d790f5fc;
 }
 .icon-connexion::before {
-    color: #c2a593;
+    color: #d790f5fc;
 }
 		/* ------------------------
 				Setup Footer
@@ -344,20 +344,20 @@ body.logged, .logged .content {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	border-right: 0.6em solid #6f5b50;
+	border-right: 0.6em solid #8832adff;
 }
 .logged .footer nav {
 	width: 85%;
 	margin: 0 auto;
 	padding: 8px 0;
 	text-align: center;
-	border-top: 2px #c2a593 solid;
+	border-top: 2px #d790f5fc solid;
 }
 .logged .footer a {
 	font-family: 'NotoSansBold', serif;
 	font-size: .9em;
 	text-decoration: none;
-	color: #c2a593;
+	color: #d790f5fc;
 	letter-spacing: -0.05em;
 }
 .logged .footer a:hover {
@@ -405,17 +405,17 @@ body.logged, .logged .content {
 }
 
 #apps ul li a {
-	background: rgb(73,70,63);
-	background: linear-gradient(0deg, rgba(73,70,63,1) 0%, rgba(87,90,89,1) 100%);
+	background: rgb(96,35,122);
+	background: linear-gradient(0deg, rgba(96,35,122,1) 0%, rgba(136,50,173,1) 100%);
 	border-radius: 5px 5px 0 0;
-	box-shadow: 6px 6px 6px #101c16;
-	color: #c2a593;
+	box-shadow: 6px 6px 6px #381547ff;
+	color: #d790f5fc;
 }
 
 .listing-apps a:hover {
 	top: 0;
 	left: 0;
-	border: 30px solid #2c2b27;
+	border: 30px solid #381547;
 	transform: rotate(7deg);
 }
 .listing-apps a::after, .listing-apps a::before, .listing-apps a:hover::after, .listing-apps a:hover::before {
@@ -437,7 +437,7 @@ body.logged, .logged .content {
 	margin: 0;
 	padding: 6px 5%;
 	text-align: left;
-	background: #2c2b27;
+	background: #381547;
 	line-height: 1.4em;
 	overflow: hidden;
 }
@@ -497,12 +497,12 @@ body.logged, .logged .content {
 }
 .form-text {
 	color: #c2a593;
-	background: url("pictures/picto.jpg") no-repeat 0 -156px #5d5446;
+	background: url("pictures/picto.png") no-repeat 0 -156px #8832adff;
 	padding-left: 60px;
 	font-family: 'NotoSansBold', serif;
 }
 .form-text:hover {
-	background-color: #2c2b27;
+	background-color: #60237aff;
 }
 .edit .large-btn, input[value="OK"] {
 	background-image: none;
@@ -514,7 +514,7 @@ body.logged, .logged .content {
 	font-family: "NotoSansBold", serif;
 }
 .btn-group .btn:hover {
-	background-color: #2c2b27;
+	background-color: #381547;
 }
 .form-group .control-label {
 	padding: 0.6em 1em;
