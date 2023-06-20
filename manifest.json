@@ -1,17 +1,17 @@
 {
-    "name": "nature-mount",
-    "id": "nature-mount",
+    "name": "nature-mount-c",
+    "id": "nature-mount-c",
     "packaging_format": 1,
     "description": {
         "en": "An illustrated theme.",
-        "fr": "Un theme illustrer."
+        "fr": "Un theme illustré."
     },
     "version": "0.9.5",
-    "url": "https://gitlab.com/stilobique/nature-mount",
+    "url": "https://github.com/makrin/Nature-Mount-C/",
     "license": "AGPL-3.0",
     "maintainer": {
-        "name": "Vaillant Aurelien",
-        "email": "aurelienvlt@free.fr"
+        "name": "Vaillant Aurelien, Martin CRONEL",
+        "email": "aurelienvlt@free.fr, martin@cronel.fr "
     },
     "requirements": {
         "yunohost": ">= 3.7.0.12",
